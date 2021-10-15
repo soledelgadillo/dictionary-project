@@ -10,9 +10,9 @@ function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="text-center">
+        <footer className="App-footer">
           This app was coded by Sol Delgadillo, and it's{" "}
           <a href="https://github.com/soledelgadillo/dictionary-project">
             open-sourced

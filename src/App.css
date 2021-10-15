@@ -1,4 +1,10 @@
-footer {
+body {
+  background: #f9f8fe;
+}
+a {
+  color: #9670f4;
+}
+.App-footer {
   font-size: small;
   margin: 30px 0;
   text-align: center;
