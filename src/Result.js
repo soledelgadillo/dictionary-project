@@ -20,7 +20,7 @@ export default function Result(props) {
         {props.result.meanings.map(function (meaning, index) {
           return (
             <section key={index}>
-              <Meaning meaning={meaning} />{" "}
+              <Meaning meaning={meaning} word={props.result.word} />{" "}
             </section>
           );
         })}
